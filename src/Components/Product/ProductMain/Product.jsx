@@ -5,10 +5,8 @@ import Zoom from "@mui/material/Zoom";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../../../Features/Cart/cartSlice";
 
-import product1 from "../../../Assets/ProductDetail/productdetail-1.jpg";
-import product2 from "../../../Assets/ProductDetail/productdetail-2.jpg";
-import product3 from "../../../Assets/ProductDetail/productdetail-3.jpg";
-import product4 from "../../../Assets/ProductDetail/productdetail-4.jpg";
+import product1 from "../../../Assets/ProductDetail/IMG_20250630_155559_846.webp";
+import product2 from "../../../Assets/ProductDetail/IMG_9777.JPG";
 
 import { GoChevronLeft } from "react-icons/go";
 import { GoChevronRight } from "react-icons/go";
@@ -25,7 +23,7 @@ import "./Product.css";
 const Product = () => {
   // Product images Gallery
 
-  const productImg = [product1, product2, product3, product4];
+  const productImg = [product1, product2];
   const [currentImg, setCurrentImg] = useState(0);
 
   const prevImg = () => {
@@ -138,8 +136,6 @@ const Product = () => {
             <div className="productThumb">
               <img src={product1} onClick={() => setCurrentImg(0)} alt="" />
               <img src={product2} onClick={() => setCurrentImg(1)} alt="" />
-              <img src={product3} onClick={() => setCurrentImg(2)} alt="" />
-              <img src={product4} onClick={() => setCurrentImg(3)} alt="" />
             </div>
             <div className="productFullImg">
               <img src={productImg[currentImg]} alt="" />

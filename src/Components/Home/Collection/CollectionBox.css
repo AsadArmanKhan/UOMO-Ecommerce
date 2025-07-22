@@ -8,7 +8,7 @@
 }
 
 .collectionLeft {
-  background-image: url("../../../Assets/Collection/collection1.jpg");
+  background-image: url(../../../../public/IMG_20250630_155559_846.webp); 
   background-size: cover;
   background-position: center center;
   padding: 30px;
@@ -47,9 +47,10 @@
 }
 
 .collectionTop {
-  background-image: url("../../../Assets/Collection/collection2.jpg");
-  background-size: cover;
+  background-image: url("../../../Assets/Collection/collection1.jpg");
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
