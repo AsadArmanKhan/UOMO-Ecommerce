@@ -141,12 +141,12 @@ const Footer = () => {
           <p>
             © {getCurrentYear()} Uomo. All Rights Reserved | Made By{" "}
             <a
-              href="https://github.com/shakti177"
+              href="https://github.com/AsadArmanKhan"
               target="_blank"
               rel="noreferrer"
               style={{ color: "#C22928", textDecoration: "none" }}
             >
-              Shakti Tamrakar
+              Asad Arman Khan
             </a>{" "}
             with ❤️
           </p>
